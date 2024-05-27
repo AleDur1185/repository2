@@ -1,0 +1,101 @@
+Assignment 3: Research and compare SDLC models suitable for engineering projects. Present findings on Waterfall, Agile, Spiral, and V-Model approaches, emphasizing their advantages, disadvantages, and applicability in different engineering contexts.
+
+
+
+
+Waterfall Model:
+
+Characteristics: The Waterfall model is a linear sequential approach, where progress flows in a downward direction (like a waterfall) through phases such as Requirements, Design, Implementation, Testing, Deployment, and Maintenance. Each phase must be completed before moving to the next.
+
+Advantages:
+Clear and well-defined stages.
+Easy to understand and manage.
+Suitable for projects with stable requirements.
+
+Disadvantages:  ->at requirement stage, the client has to give all the requirment.it is fixed
+   and finalize. later client can't change the requirement.
+ -> changes cannot be accepted.
+     -> client the see the product only at the end.
+     -> specify all the requirement at requirement gathering stage only.
+        Limited flexibility for changes once a phase is completed.
+        Late detection of errors or issues.
+        Customer feedback is often delayed until later stages.
+        Applicability: Suitable for projects with well-understood and unchanging requirements, such as building physical infrastructure     or hardware systems.sutable for small projects
+
+
+Agile Model:
+
+Characteristics:  -> It is iterative incremental software development model.
+   -> In agile,we develope the products in sprints, 
+   -> At the end of each sprint, we develop a particular software 
+      feature. eg: login feature,
+     Agile is an iterative and incremental approach, focusing on adaptive planning, evolutionary development, early delivery, and continuous improvement. 
+     It emphasizes collaboration, customer feedback, and rapid iterations.
+Advantages:
+ -> after every sprint, customer can see the product and give the feedback.
+       for improvement.
+    - adding new features easily.   
+    - flexible for requirement change.
+     improves quality.
+     customer satisfication. 
+    Risk management. -> (if any risk in there, it will be notified at early 
+                            stage only.
+     Continuous customer involvement and feedback.
+     Early delivery of working software.
+
+Disadvantages:
+Requires active customer involvement, which may not always be feasible.
+Lack of emphasis on documentation may lead to knowledge gaps.
+May not be suitable for projects with fixed deadlines or strict regulatory requirements.
+
+Applicability: Ideal for projects where requirements are expected to evolve, such as software development, 
+where quick adaptation to changing market needs is crucial.
+
+Spiral Model:
+
+Characteristics: > In spiral model, the software are developed based on iterations/module.
+   -> It is widely used model, for large scale applicatio we can use spiral model.
+
+   when to choose spiral model:-
+   ----------------------------
+      ->when the risk, is more invoved in the project. then we can 
+      choose spiral model.
+
+      -> when the requirement are not clearly understand
+
+The Spiral model combines the iterative nature of prototyping with the systematic aspects of the Waterfall model. 
+It involves cyclic iterations of development phases, each passing through the same sequence of steps but with increasing detail and refinement.
+
+Advantages:
+Allows for early identification and mitigation of risks.
+Flexibility to incorporate changes during development.
+Suitable for large and complex projects with uncertain or evolving requirements.
+
+Disadvantages:
+Complex and may require more resources and time.
+Risk management activities may become extensive.
+Progress can be difficult to measure.
+
+Applicability: Well-suited for projects where requirements are not fully understood or are likely to change over time, 
+such as developing new technologies or innovative products.
+
+
+V-Model:
+
+Characteristics: The V-Model is an extension of the Waterfall model, emphasizing the verification and validation of each stage of development. 
+It involves corresponding testing activities for each development stage, forming a V-shaped lifecycle.
+
+
+Advantages:
+Strong emphasis on testing and validation.
+Clear mapping of requirements to test cases.
+Early detection of defects and issues.
+
+
+Disadvantages:
+Can be rigid and less adaptable to changes.
+Testing activities may become time-consuming and expensive.
+Customer feedback may be limited until later stages.
+
+Applicability: Suitable for projects where strict adherence to requirements and quality standards is paramount, 
+such as safety-critical systems or projects subject to regulatory compliance.

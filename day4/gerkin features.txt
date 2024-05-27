@@ -1,0 +1,27 @@
+			Gherkin features for an online doctor appointment application, 
+User Registration and Login:
+
+	Feature: User registration and login
+	Scenario: 
+	Given a new user opens the app
+	When they provide valid registration details (name, email, password)
+	Then their account is created successfully, and they can log in
+
+
+
+2.	Booking an Appointment:
+
+	Feature: Booking an appointment with a specialist
+	Scenario: 
+	Given a logged-in patient
+	When they search for a specific specialist (e.g., cardiologist)
+	And select an available time slot
+	Then the appointment is confirmed
+
+3.	Doctor Profile Management:
+	Feature: Managing doctor profiles
+	Scenario: 
+	Given a doctor logs in
+	When they update their profile (specialization, availability)
+	Then the changes are saved
+

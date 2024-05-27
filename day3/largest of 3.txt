@@ -1,0 +1,91 @@
+
+largest of 3 numbers:
+
+
+using System;
+
+public class Program
+{
+    public static int FindLargest(int num1, int num2, int num3)
+    {
+        int largest;
+
+        // Compare num1 with num2 and num3 to find the largest
+        if (num1 >= num2 && num1 >= num3)
+        {
+            largest = num1;
+        }
+        else if (num2 >= num1 && num2 >= num3)
+        {
+            largest = num2;
+        }
+        else
+        {
+            largest = num3;
+        }
+
+        return largest;
+    }
+
+    public static void Main(string[] args)
+    {
+        int num1 = 10;
+        int num2 = 20;
+        int num3 = 15;
+
+        int largest = FindLargest(num1, num2, num3);
+        Console.WriteLine("The largest number is: " + largest);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[11:26 AM] faiezmohd43@gmail.com (Unverified)
+int findmax(int a , int b , int c)
+
+{
+
+    if(a > b && a>c)
+
+    {
+
+       return a ; 
+
+    }
+
+    else if(b > c && b >a)
+
+    {
+
+        return b ; 
+
+    }
+
+    else
+
+{ 
+
+    return c
+
+}
+
+}

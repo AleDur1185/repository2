@@ -1,0 +1,175 @@
+Assignment 2: Produce a comparative infographic of TDD, BDD, and FDD methodologies. Illustrate their unique approaches, benefits, and suitability for different software development contexts. Use visuals to enhance understanding.
+
+
+
+TDD (Test-Driven Development), BDD (Behavior-Driven Development), and FDD (Feature-Driven Development) are three popular software development methodologies, each with its unique approach and benefits.
+
+Test-Driven Development (TDD):
+
+Title: Test-Driven Development (TDD) Process
+
+ ->Test Driven Development starts with writing the test for each
+   function(or)feature. 
+
+   ->Initially the test are failed because the test are developed
+    even before the development.
+
+   ->Development team then write the code,and modify the code to pass
+    the test. 
+   
+      flow diagram:-
+      --------------
+         write the test 
+            |
+         run the test     
+            | 
+         refactor the code( make changes until it get passed)
+           |
+          run the test  
+           |
+           test will pass.  
+
+Approach:
+
+Write tests before writing code.
+Focus on small, incremental development cycles.
+Refactor code continuously.
+Benefits:
+Early bug detection and reduction.
+Improved code quality and design.
+Faster development due to reduced debugging time.
+Suitability:
+Ideal for Agile environments.
+Well-suited for projects with clearly defined requirements and frequent changes.
+
+
+Behavior-Driven Development (BDD):
+Approach:
+BDD:-   (behaviour Driven Development).
+---------------------------------------
+  
+  BDD is all about collobaration between teams. 
+     
+     development team:  (write the code) --> java/python/.net
+     testing team:
+     business analyst:  (discuss with client) ->give the requirement to 
+                        development team
+                       
+     product analyst:
+
+
+  BDD is used for the behaviour  of the system, weather it is developed 
+  as per the client requirement or not.
+
+  BDD uses a common language, to communicate between the teams.
+ 
+  BDD communicate between developers, business analyst,testing -> the aim 
+  is the deliver the product as per the customer requirement.
+
+
+
+
+Focus on the behavior of the system from the user's perspective.
+Write executable specifications (specs) using natural language.
+Collaborate between developers, testers, and stakeholders to define behavior.
+Benefits:
+Clear communication between teams.
+Encourages collaboration and shared understanding.
+Drives development based on user requirements and business goals.
+Suitability:
+Best for projects with complex business logic or user interactions.
+Useful for teams seeking to align development with business objectives.
+
+
+Feature-Driven Development (FDD):
+Approach:
+  -> feature driven development. 
+
+   -> It is a iterative incremental software development process.
+  
+   -> In fdd, the software product is developed feature by feature in 
+     an incremental approach.
+
+
+   -> focuses on developing working software with features that
+      satisfy client needs.
+  
+   eg:-
+   -----
+      ecommerce application.
+      ----------------------
+       feature:-
+       ----------
+        login feature.
+       
+        placing a order in ecommere application feature.
+           sub task:-
+                 search the product 
+                 add to cart 
+                 add address details 
+                 add payment 
+                 once payment is done 
+                 receive the notification
+
+
+ecommerce application feature list:-
+------------------------------------
+->login 
+->booking the order
+->cancel the order
+-> exchange the order
+->review 
+->tracking 
+->refund 
+->profile 
+->rewards 
+->address features
+->payment mode  
+->order history 
+->filter  
+->search 
+
+   FDD flow chart:-
+   -----------------
+     develope over all model
+       |
+     build the feature list    (login,product, booking, cancel,refund,reward)
+       | 
+       |
+     plan the feature      plan for booking feature
+       |
+     design the feature    desing the booking feature
+       |
+     build by feature      build the booking feature 
+
+
+
+Divide development into small, manageable features.
+Emphasize feature ownership and progress tracking.
+Use iterative and incremental development cycles.
+Benefits:
+Efficient management of large projects.
+Clear visibility into feature completion and progress.
+Promotes rapid delivery of tangible results.
+Suitability:
+Suitable for large-scale projects with well-defined features.
+Helpful for teams needing structured progress tracking and management.
+
+
+
+Visual Elements:
+
+Use icons or illustrations to represent each methodology's key characteristics and steps.
+Utilize charts or graphs to compare the benefits of each methodology in terms of bug reduction, collaboration, and development speed.
+Include diagrams showing the workflow or process of each methodology to visually explain their approaches.
+
+Design Tips:
+
+Maintain a consistent color scheme and visual style throughout the infographic.
+Use concise, clear language to explain each methodology's approach and benefits.
+Arrange the content in a logical manner, guiding the viewer through the comparison of TDD, BDD, and FDD.
+
+
+Each methodology offers unique advantages and is suitable for different software development contexts. Understanding their approaches and benefits can help teams choose the right methodology for their projects.
+
+

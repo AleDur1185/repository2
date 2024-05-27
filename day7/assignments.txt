@@ -1,0 +1,154 @@
+Assignment 1: Ensure the script checks if a specific file (e.g., myfile.txt) exists in the current directory. If it exists, print "File exists", otherwise print "File not found".
+ 
+Assignment 2: Write a script that reads numbers from the user until they enter '0'. The script should also print whether each number is odd or even.
+
+->3.count the number of directory and files in specific folder.
+->4.find the smallest number from the array.
+->5.find the sum of the array.
+->6.display all the directory names.
+->7.check weather the number is palindrom or not.
+
+
+Assignment 1: Ensure the script checks if a specific file (e.g., myfile.txt) exists in the current directory. If it exists, print "File exists", otherwise print "File not found".
+
+
+assignment1:#!/bin/bash
+
+filename="myfile.txt"
+
+if [ -e "$filename" ]; then
+    echo "File exists"
+else
+    echo "File not found"
+fi
+
+
+
+Assignment 2: Write a script that reads numbers from the user until they enter '0'. The script should also print whether each number is odd or even.
+
+
+
+assignment2:#!/bin/bash
+
+while true; do
+    read -p "Enter a number (enter 0 to exit): " number
+
+    # Check if the input is '0' to exit the loop
+    if [ "$number" -eq 0 ]; then
+        echo "Exiting..."
+        break
+    fi
+
+    # Check if the number is odd or even
+    if [ $((number % 2)) -eq 0 ]; then
+        echo "$number is even"
+    else
+        echo "$number is odd"
+    fi
+done
+
+
+
+
+>3.count the number of directory and files in specific folder.
+import os
+
+def check_file_exists(filename):
+    if os.path.exists(filename):
+        print("File exists")
+    else:
+        print("File not found")
+
+# Change 'myfile.txt' to the name of the file you want to check
+check_file_exists('myfile.txt')
+
+
+
+
+
+>4.find the smallest number from the array.
+
+
+#!/bin/bash
+
+# Define the array
+array=(3 5 1 9 2)
+
+# Sort the array
+sorted_array=($(printf "%s\n" "${array[@]}" | sort -n))
+
+# Get the smallest number
+smallest=${sorted_array[0]}
+
+echo "Smallest number: $smallest"
+
+
+
+
+->5.find the sum of the array.
+
+
+#!/bin/bash
+
+# Define the array
+array=(3 5 1 9 2)
+
+# Calculate the sum
+sum=0
+for num in "${array[@]}"; do
+    sum=$((sum + num))
+done
+
+echo "Sum of the array: $sum"
+
+
+
+->6.display all the directory names.
+
+
+#!/bin/bash
+
+# Define the folder path
+folder_path="/path/to/your/folder"
+
+# Display directory names
+find "$folder_path" -mindepth 1 -maxdepth 1 -type d -printf "%f\n"
+
+
+
+->7.check weather the number is palindrom or not.
+
+#!/bin/bash
+
+# Function to check if a number is palindrome
+is_palindrome() {
+    num=$1
+    reverse=$(echo "$num" | rev)
+    if [ "$num" = "$reverse" ]; then
+        echo "$num is palindrome"
+    else
+        echo "$num is not palindrome"
+    fi
+}
+
+# Call the function with the number you want to check
+is_palindrome 121
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

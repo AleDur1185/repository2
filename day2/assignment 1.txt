@@ -1,0 +1,96 @@
+Assignment 1: SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment), highlighting the importance of each phase and how they interconnect.
+
+
+
+ SDLC and its importance:The software development lifecycle (SDLC) is the cost-effective and time-efficient process that development teams use to design and build high-quality software
+
+
+
+
+ Software Development Life Cycle (SDLC) Overview
+
+                   +------------------------+
+                   |       Requirements     |
+                   +------------------------+
+                         Define what the
+                       software should do.
+
+          |                                          |
+    +----------+                              +----------+
+    |   Design   |                              |  Testing  |
+    +----------+                              +----------+
+  Translate requirements               Verify software meets
+  into a blueprint.                        requirements.
+
+          |                                          |
+    +-------------+                      +-------------+
+    | Implementation |                   | Deployment  |
+    +-------------+                      +-------------+
+      Develop software                   Roll out for user
+      based on design.                     access.
+
+
+
+
+
+
+
+
+
+ a simple one-page infographic outlining the Software Development Life Cycle (SDLC) phases:
+
+Software Development Life Cycle (SDLC) Overview
+
+1. Requirements
+The prime focus of this phase is to gather the essential requirements from the customer. This information gets collected by the business analyst from their target customer(s
+
+Importance: Establishes the foundation by understanding stakeholders' needs and defining project scope.
+Interconnection: Provides the basis for all subsequent phases, ensuring alignment with client expectations.
+
+2.feasibility study:When the BRS documentation is done, there are another set of employees like Human Resource (HR), Finance Analyst, Architect, a Business analyst as well as Project manager will sit jointly discuss as well as analyze how to proceed and whether it is feasible and possible in the allotted budget. Such decisions are taken depending on the cost, resources, time, etc. Documentation is made, which is the SRS (Software Requirement Specification) document, which contains a detailed explanation of product requirements, right from design to development.
+
+
+
+
+2. Design
+This phase is when the design specification is organized from the prerequisite document when the project is approved to go further. This phase contributes to the next phase for development. This phase portrays a blueprint of the product, which helps to specify the hardware and requirements of your system as well as assist in crafting a significant architecture of your system.
+
+
+
+Importance: Transforms requirements into a blueprint for development, outlining system architecture, data structures, and interfaces.
+Interconnection: Guides implementation by providing a clear roadmap and structure for development activities.
+
+
+
+
+3. coding:
+As you are preparing with the design document, this phase deals with the developers to start writing the code or prepare for the engineering so that a prototype of the product can be created using some specific tools and techniques. This is considered the longest phase of SDLC.
+
+
+
+Importance: The actual coding phase where software is developed according to the design specifications.
+Interconnection: Directly builds upon the design phase, translating design concepts into functional code.
+
+
+
+4. Testing
+As your product is prepared for deployment, it needs a prior testing environment by the test engineers to check for bugs and run-time errors, and they check in this phase whether the functionality of the product is working as per the requirement or not. The bugs or defects which are encountered in the test phase are reported to the developers, who fix the bug and revert to the test engineers for further testing. This is an iterative process that continues until your application is free from bugs and defects and works stably.
+
+Importance: Validates software functionality, ensuring it meets requirements and is free of defects.
+Interconnection: Validates implementation accuracy, highlighting any discrepancies between expected and actual outcomes.
+
+
+
+5. Deployment
+Once your prototype or product is developed, tested, and completely in working form as per the requirement, and then it is installed or deployed in the customer's workplace or system for their use.
+
+
+
+Importance: Involves releasing the developed software to end-users.
+
+
+
+
+
+
+
